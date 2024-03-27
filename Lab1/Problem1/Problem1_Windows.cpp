@@ -25,7 +25,7 @@ void print(string s) {
 }
 
 void naive(int n) {
-    // ���з��ʾ���Ԫ��: һ�����ѭ�����ڴ�ѭ��һ������ִ�У������һ���ڻ����
+    // 逐列访问矩阵元素: 一步外层循环（内存循环一次完整执行）计算出一个内积结果
     for (int i = 0; i < n; i++)  
         sum[i] = 0;
 
@@ -36,7 +36,7 @@ void naive(int n) {
 }
 
 void optimize(int n) {
-    // ��Ϊ���з��ʾ���Ԫ��: һ�����ѭ�����㲻���κ�һ���ڻ�, ֻ����ÿ���ڻ��ۼ�һ���˷����
+    // 改为逐行访问矩阵元素: 一步外层循环计算不出任何一个内积, 只是向每个内积累加一个乘法结果
 
     for(int i = 0; i < n; i++)
         sum[i] = 0;
@@ -85,7 +85,7 @@ void experiment(int n) {
     cout << "n = " << n << endl;
     init(n);
     // similar to CLOCKS_PER_SEC
-    QueryPerformanceFrequency((LARGE_INTEGER*)&freq); // &freq ȡfreq�ĵ�ַ������ת����"ָ��LARGE_INTEGER��ָ��"�������͡�
+    QueryPerformanceFrequency((LARGE_INTEGER*)&freq);
 
     // naive
     QueryPerformanceCounter((LARGE_INTEGER*)&head);
@@ -112,7 +112,7 @@ void experiment(int n) {
     
 int main(){
     cout << "M = " << M << endl;
-    //n = 1e4; // ����Ĺ�ģ
+    //n = 1e4;
     for (int i = 10; i <= 100; i += 10) {
         experiment(i);
     }

@@ -1,0 +1,1737 @@
+
+M = 1000
+n = 10
+naive: 1.5e-05ms
+optimize_multi_link: 1.2e-05ms
+optimize_recursion_func: 2.6e-05ms
+optimize_recursion_nested_loop: 2.2e-05ms
+
+n = 20
+naive: 3.2e-05ms
+optimize_multi_link: 2.2e-05ms
+optimize_recursion_func: 5e-05ms
+optimize_recursion_nested_loop: 4.4e-05ms
+
+n = 30
+naive: 5.2e-05ms
+optimize_multi_link: 3.6e-05ms
+optimize_recursion_func: 6.8e-05ms
+optimize_recursion_nested_loop: 8.5e-05ms
+
+n = 40
+naive: 7.3e-05ms
+optimize_multi_link: 4.9e-05ms
+optimize_recursion_func: 0.0001ms
+optimize_recursion_nested_loop: 9.7e-05ms
+
+n = 50
+naive: 9.4e-05ms
+optimize_multi_link: 6.3e-05ms
+optimize_recursion_func: 0.000137ms
+optimize_recursion_nested_loop: 0.000139ms
+
+n = 60
+naive: 0.000116ms
+optimize_multi_link: 7.7e-05ms
+optimize_recursion_func: 0.000143ms
+optimize_recursion_nested_loop: 0.000148ms
+
+n = 70
+naive: 0.000136ms
+optimize_multi_link: 9.1e-05ms
+optimize_recursion_func: 0.000175ms
+optimize_recursion_nested_loop: 0.000177ms
+
+n = 80
+naive: 0.00018ms
+optimize_multi_link: 0.000105ms
+optimize_recursion_func: 0.000204ms
+optimize_recursion_nested_loop: 0.000206ms
+
+n = 90
+naive: 0.000178ms
+optimize_multi_link: 0.000119ms
+optimize_recursion_func: 0.000228ms
+optimize_recursion_nested_loop: 0.000233ms
+
+n = 100
+naive: 0.000101ms
+optimize_multi_link: 0.000133ms
+optimize_recursion_func: 0.000255ms
+optimize_recursion_nested_loop: 0.000261ms
+
+n = 200
+naive: 0.000191ms
+optimize_multi_link: 0.000293ms
+optimize_recursion_func: 0.00052ms
+optimize_recursion_nested_loop: 0.000554ms
+
+n = 300
+naive: 0.000288ms
+optimize_multi_link: 0.000396ms
+optimize_recursion_func: 0.000782ms
+optimize_recursion_nested_loop: 0.00084ms
+
+n = 400
+naive: 0.000371ms
+optimize_multi_link: 0.000527ms
+optimize_recursion_func: 0.00104ms
+optimize_recursion_nested_loop: 0.001045ms
+
+n = 500
+naive: 0.00076ms
+optimize_multi_link: 0.000399ms
+optimize_recursion_func: 0.000731ms
+optimize_recursion_nested_loop: 0.000991ms
+
+n = 600
+naive: 0.000928ms
+optimize_multi_link: 0.000458ms
+optimize_recursion_func: 0.000879ms
+optimize_recursion_nested_loop: 0.001202ms
+
+n = 700
+naive: 0.001097ms
+optimize_multi_link: 0.000537ms
+optimize_recursion_func: 0.000953ms
+optimize_recursion_nested_loop: 0.001294ms
+
+n = 800
+naive: 0.001227ms
+optimize_multi_link: 0.00068ms
+optimize_recursion_func: 0.001064ms
+optimize_recursion_nested_loop: 0.00161ms
+
+n = 900
+naive: 0.001376ms
+optimize_multi_link: 0.000729ms
+optimize_recursion_func: 0.001198ms
+optimize_recursion_nested_loop: 0.001766ms
+
+n = 1000
+naive: 0.001547ms
+optimize_multi_link: 0.000762ms
+optimize_recursion_func: 0.001305ms
+optimize_recursion_nested_loop: 0.001961ms
+
+n = 1100
+naive: 0.001681ms
+optimize_multi_link: 0.000851ms
+optimize_recursion_func: 0.001436ms
+optimize_recursion_nested_loop: 0.002161ms
+
+n = 1200
+naive: 0.001865ms
+optimize_multi_link: 0.000937ms
+optimize_recursion_func: 0.001567ms
+optimize_recursion_nested_loop: 0.002349ms
+
+n = 1300
+naive: 0.002009ms
+optimize_multi_link: 0.001105ms
+optimize_recursion_func: 0.00164ms
+optimize_recursion_nested_loop: 0.002473ms
+
+n = 1400
+naive: 0.001923ms
+optimize_multi_link: 0.00096ms
+optimize_recursion_func: 0.001811ms
+optimize_recursion_nested_loop: 0.002714ms
+
+n = 1500
+naive: 0.002294ms
+optimize_multi_link: 0.001131ms
+optimize_recursion_func: 0.001894ms
+optimize_recursion_nested_loop: 0.002797ms
+
+n = 1600
+naive: 0.002461ms
+optimize_multi_link: 0.001242ms
+optimize_recursion_func: 0.002072ms
+optimize_recursion_nested_loop: 0.003226ms
+
+n = 1700
+naive: 0.002664ms
+optimize_multi_link: 0.001342ms
+optimize_recursion_func: 0.002046ms
+optimize_recursion_nested_loop: 0.0033ms
+
+n = 1800
+naive: 0.002842ms
+optimize_multi_link: 0.001397ms
+optimize_recursion_func: 0.002181ms
+optimize_recursion_nested_loop: 0.003337ms
+
+n = 1900
+naive: 0.002941ms
+optimize_multi_link: 0.001468ms
+optimize_recursion_func: 0.002197ms
+optimize_recursion_nested_loop: 0.00325ms
+
+n = 2000
+naive: 0.002909ms
+optimize_multi_link: 0.001553ms
+optimize_recursion_func: 0.002392ms
+optimize_recursion_nested_loop: 0.003973ms
+
+n = 2100
+naive: 0.001897ms
+optimize_multi_link: 0.001433ms
+optimize_recursion_func: 0.0029ms
+optimize_recursion_nested_loop: 0.003701ms
+
+n = 2200
+naive: 0.003439ms
+optimize_multi_link: 0.001718ms
+optimize_recursion_func: 0.002694ms
+optimize_recursion_nested_loop: 0.00401ms
+
+n = 2300
+naive: 0.003646ms
+optimize_multi_link: 0.00182ms
+optimize_recursion_func: 0.002712ms
+optimize_recursion_nested_loop: 0.004186ms
+
+n = 2400
+naive: 0.004052ms
+optimize_multi_link: 0.002247ms
+optimize_recursion_func: 0.004562ms
+optimize_recursion_nested_loop: 0.00422ms
+
+n = 2500
+naive: 0.003945ms
+optimize_multi_link: 0.002005ms
+optimize_recursion_func: 0.002984ms
+optimize_recursion_nested_loop: 0.004346ms
+
+n = 2600
+naive: 0.00421ms
+optimize_multi_link: 0.002073ms
+optimize_recursion_func: 0.003801ms
+optimize_recursion_nested_loop: 0.00478ms
+
+n = 2700
+naive: 0.004241ms
+optimize_multi_link: 0.002045ms
+optimize_recursion_func: 0.003188ms
+optimize_recursion_nested_loop: 0.004937ms
+
+n = 2800
+naive: 0.004424ms
+optimize_multi_link: 0.002257ms
+optimize_recursion_func: 0.004081ms
+optimize_recursion_nested_loop: 0.008067ms
+
+n = 2900
+naive: 0.002735ms
+optimize_multi_link: 0.001975ms
+optimize_recursion_func: 0.005886ms
+optimize_recursion_nested_loop: 0.008299ms
+
+n = 3000
+naive: 0.002601ms
+optimize_multi_link: 0.002017ms
+optimize_recursion_func: 0.005317ms
+optimize_recursion_nested_loop: 0.007398ms
+
+n = 3100
+naive: 0.004898ms
+optimize_multi_link: 0.002382ms
+optimize_recursion_func: 0.005984ms
+optimize_recursion_nested_loop: 0.006701ms
+
+n = 3200
+naive: 0.002771ms
+optimize_multi_link: 0.002423ms
+optimize_recursion_func: 0.004225ms
+optimize_recursion_nested_loop: 0.005929ms
+
+n = 3300
+naive: 0.004819ms
+optimize_multi_link: 0.002577ms
+optimize_recursion_func: 0.005187ms
+optimize_recursion_nested_loop: 0.007182ms
+
+n = 3400
+naive: 0.003851ms
+optimize_multi_link: 0.002329ms
+optimize_recursion_func: 0.005394ms
+optimize_recursion_nested_loop: 0.005962ms
+
+n = 3500
+naive: 0.004296ms
+optimize_multi_link: 0.00241ms
+optimize_recursion_func: 0.004308ms
+optimize_recursion_nested_loop: 0.005967ms
+
+n = 3600
+naive: 0.005658ms
+optimize_multi_link: 0.002436ms
+optimize_recursion_func: 0.003877ms
+optimize_recursion_nested_loop: 0.009551ms
+
+n = 3700
+naive: 0.0032ms
+optimize_multi_link: 0.002506ms
+optimize_recursion_func: 0.00446ms
+optimize_recursion_nested_loop: 0.006518ms
+
+n = 3800
+naive: 0.003396ms
+optimize_multi_link: 0.00255ms
+optimize_recursion_func: 0.009772ms
+optimize_recursion_nested_loop: 0.011032ms
+
+n = 3900
+naive: 0.00339ms
+optimize_multi_link: 0.002627ms
+optimize_recursion_func: 0.009997ms
+optimize_recursion_nested_loop: 0.008977ms
+
+n = 4000
+naive: 0.006091ms
+optimize_multi_link: 0.002878ms
+optimize_recursion_func: 0.004158ms
+optimize_recursion_nested_loop: 0.007463ms
+
+n = 4100
+naive: 0.005583ms
+optimize_multi_link: 0.003158ms
+optimize_recursion_func: 0.004637ms
+optimize_recursion_nested_loop: 0.007066ms
+
+n = 4200
+naive: 0.006051ms
+optimize_multi_link: 0.003319ms
+optimize_recursion_func: 0.004901ms
+optimize_recursion_nested_loop: 0.006847ms
+
+n = 4300
+naive: 0.006687ms
+optimize_multi_link: 0.003064ms
+optimize_recursion_func: 0.004424ms
+optimize_recursion_nested_loop: 0.0068ms
+
+n = 4400
+naive: 0.00649ms
+optimize_multi_link: 0.003022ms
+optimize_recursion_func: 0.004675ms
+optimize_recursion_nested_loop: 0.007696ms
+
+n = 4500
+naive: 0.00633ms
+optimize_multi_link: 0.003366ms
+optimize_recursion_func: 0.005124ms
+optimize_recursion_nested_loop: 0.00694ms
+
+n = 4600
+naive: 0.007153ms
+optimize_multi_link: 0.00362ms
+optimize_recursion_func: 0.004777ms
+optimize_recursion_nested_loop: 0.008412ms
+
+n = 4700
+naive: 0.006828ms
+optimize_multi_link: 0.003342ms
+optimize_recursion_func: 0.005056ms
+optimize_recursion_nested_loop: 0.008493ms
+
+n = 4800
+naive: 0.004766ms
+optimize_multi_link: 0.003319ms
+optimize_recursion_func: 0.005479ms
+optimize_recursion_nested_loop: 0.008543ms
+
+n = 4900
+naive: 0.00792ms
+optimize_multi_link: 0.003756ms
+optimize_recursion_func: 0.009064ms
+optimize_recursion_nested_loop: 0.012264ms
+
+n = 5000
+naive: 0.007592ms
+optimize_multi_link: 0.003859ms
+optimize_recursion_func: 0.005255ms
+optimize_recursion_nested_loop: 0.008933ms
+
+n = 5100
+naive: 0.007863ms
+optimize_multi_link: 0.003925ms
+optimize_recursion_func: 0.005653ms
+optimize_recursion_nested_loop: 0.009201ms
+
+n = 5200
+naive: 0.008232ms
+optimize_multi_link: 0.003612ms
+optimize_recursion_func: 0.005913ms
+optimize_recursion_nested_loop: 0.009007ms
+
+n = 5300
+naive: 0.007953ms
+optimize_multi_link: 0.004109ms
+optimize_recursion_func: 0.005534ms
+optimize_recursion_nested_loop: 0.009246ms
+
+n = 5400
+naive: 0.008563ms
+optimize_multi_link: 0.004202ms
+optimize_recursion_func: 0.006546ms
+optimize_recursion_nested_loop: 0.009286ms
+
+n = 5500
+naive: 0.008711ms
+optimize_multi_link: 0.00372ms
+optimize_recursion_func: 0.006389ms
+optimize_recursion_nested_loop: 0.009617ms
+
+n = 5600
+naive: 0.008836ms
+optimize_multi_link: 0.004328ms
+optimize_recursion_func: 0.006682ms
+optimize_recursion_nested_loop: 0.009397ms
+
+n = 5700
+naive: 0.008509ms
+optimize_multi_link: 0.003946ms
+optimize_recursion_func: 0.006883ms
+optimize_recursion_nested_loop: 0.009855ms
+
+n = 5800
+naive: 0.008466ms
+optimize_multi_link: 0.004705ms
+optimize_recursion_func: 0.007013ms
+optimize_recursion_nested_loop: 0.009335ms
+
+n = 5900
+naive: 0.008474ms
+optimize_multi_link: 0.004184ms
+optimize_recursion_func: 0.006502ms
+optimize_recursion_nested_loop: 0.009566ms
+
+n = 6000
+naive: 0.009587ms
+optimize_multi_link: 0.004597ms
+optimize_recursion_func: 0.007423ms
+optimize_recursion_nested_loop: 0.0103ms
+
+n = 6100
+naive: 0.009766ms
+optimize_multi_link: 0.004565ms
+optimize_recursion_func: 0.006897ms
+optimize_recursion_nested_loop: 0.01054ms
+
+n = 6200
+naive: 0.009578ms
+optimize_multi_link: 0.004727ms
+optimize_recursion_func: 0.006727ms
+optimize_recursion_nested_loop: 0.010805ms
+
+n = 6300
+naive: 0.00946ms
+optimize_multi_link: 0.00481ms
+optimize_recursion_func: 0.007399ms
+optimize_recursion_nested_loop: 0.010504ms
+
+n = 6400
+naive: 0.010581ms
+optimize_multi_link: 0.006072ms
+optimize_recursion_func: 0.007877ms
+optimize_recursion_nested_loop: 0.010533ms
+
+n = 6500
+naive: 0.010575ms
+optimize_multi_link: 0.005325ms
+optimize_recursion_func: 0.007844ms
+optimize_recursion_nested_loop: 0.010807ms
+
+n = 6600
+naive: 0.01171ms
+optimize_multi_link: 0.006568ms
+optimize_recursion_func: 0.00784ms
+optimize_recursion_nested_loop: 0.011554ms
+
+n = 6700
+naive: 0.010759ms
+optimize_multi_link: 0.00527ms
+optimize_recursion_func: 0.01565ms
+optimize_recursion_nested_loop: 0.015185ms
+
+n = 6800
+naive: 0.010244ms
+optimize_multi_link: 0.004741ms
+optimize_recursion_func: 0.00722ms
+optimize_recursion_nested_loop: 0.011438ms
+
+n = 6900
+naive: 0.010386ms
+optimize_multi_link: 0.005407ms
+optimize_recursion_func: 0.007351ms
+optimize_recursion_nested_loop: 0.011516ms
+
+n = 7000
+naive: 0.009878ms
+optimize_multi_link: 0.0054ms
+optimize_recursion_func: 0.007723ms
+optimize_recursion_nested_loop: 0.010847ms
+
+n = 7100
+naive: 0.009954ms
+optimize_multi_link: 0.005004ms
+optimize_recursion_func: 0.00752ms
+optimize_recursion_nested_loop: 0.011682ms
+
+n = 7200
+naive: 0.010871ms
+optimize_multi_link: 0.004953ms
+optimize_recursion_func: 0.007907ms
+optimize_recursion_nested_loop: 0.010791ms
+
+n = 7300
+naive: 0.01102ms
+optimize_multi_link: 0.005105ms
+optimize_recursion_func: 0.007681ms
+optimize_recursion_nested_loop: 0.014927ms
+
+n = 7400
+naive: 0.006735ms
+optimize_multi_link: 0.005361ms
+optimize_recursion_func: 0.007611ms
+optimize_recursion_nested_loop: 0.012281ms
+
+n = 7500
+naive: 0.010968ms
+optimize_multi_link: 0.005938ms
+optimize_recursion_func: 0.007892ms
+optimize_recursion_nested_loop: 0.012466ms
+
+n = 7600
+naive: 0.01107ms
+optimize_multi_link: 0.005803ms
+optimize_recursion_func: 0.008037ms
+optimize_recursion_nested_loop: 0.012858ms
+
+n = 7700
+naive: 0.01179ms
+optimize_multi_link: 0.005443ms
+optimize_recursion_func: 0.007983ms
+optimize_recursion_nested_loop: 0.012894ms
+
+n = 7800
+naive: 0.0119ms
+optimize_multi_link: 0.005449ms
+optimize_recursion_func: 0.008516ms
+optimize_recursion_nested_loop: 0.012986ms
+
+n = 7900
+naive: 0.01205ms
+optimize_multi_link: 0.006119ms
+optimize_recursion_func: 0.007982ms
+optimize_recursion_nested_loop: 0.013474ms
+
+n = 8000
+naive: 0.011797ms
+optimize_multi_link: 0.005688ms
+optimize_recursion_func: 0.008543ms
+optimize_recursion_nested_loop: 0.013328ms
+
+n = 8100
+naive: 0.012103ms
+optimize_multi_link: 0.005731ms
+optimize_recursion_func: 0.008177ms
+optimize_recursion_nested_loop: 0.012828ms
+
+n = 8200
+naive: 0.011905ms
+optimize_multi_link: 0.006269ms
+optimize_recursion_func: 0.008597ms
+optimize_recursion_nested_loop: 0.013531ms
+
+n = 8300
+naive: 0.012448ms
+optimize_multi_link: 0.005741ms
+optimize_recursion_func: 0.009019ms
+optimize_recursion_nested_loop: 0.013797ms
+
+n = 8400
+naive: 0.012279ms
+optimize_multi_link: 0.006516ms
+optimize_recursion_func: 0.008856ms
+optimize_recursion_nested_loop: 0.014246ms
+
+n = 8500
+naive: 0.012793ms
+optimize_multi_link: 0.005866ms
+optimize_recursion_func: 0.01014ms
+optimize_recursion_nested_loop: 0.01455ms
+
+n = 8600
+naive: 0.012306ms
+optimize_multi_link: 0.006599ms
+optimize_recursion_func: 0.009068ms
+optimize_recursion_nested_loop: 0.014031ms
+
+n = 8700
+naive: 0.01331ms
+optimize_multi_link: 0.006087ms
+optimize_recursion_func: 0.009547ms
+optimize_recursion_nested_loop: 0.014378ms
+
+n = 8800
+naive: 0.012917ms
+optimize_multi_link: 0.006356ms
+optimize_recursion_func: 0.009172ms
+optimize_recursion_nested_loop: 0.020564ms
+
+n = 8900
+naive: 0.008986ms
+optimize_multi_link: 0.006256ms
+optimize_recursion_func: 0.023134ms
+optimize_recursion_nested_loop: 0.018746ms
+
+n = 9000
+naive: 0.008556ms
+optimize_multi_link: 0.007122ms
+optimize_recursion_func: 0.009976ms
+optimize_recursion_nested_loop: 0.016643ms
+
+n = 9100
+naive: 0.013384ms
+optimize_multi_link: 0.006541ms
+optimize_recursion_func: 0.009075ms
+optimize_recursion_nested_loop: 0.015176ms
+
+n = 9200
+naive: 0.012999ms
+optimize_multi_link: 0.007112ms
+optimize_recursion_func: 0.009356ms
+optimize_recursion_nested_loop: 0.014797ms
+
+n = 9300
+naive: 0.013916ms
+optimize_multi_link: 0.006329ms
+optimize_recursion_func: 0.009311ms
+optimize_recursion_nested_loop: 0.014825ms
+
+n = 9400
+naive: 0.01372ms
+optimize_multi_link: 0.006483ms
+optimize_recursion_func: 0.009635ms
+optimize_recursion_nested_loop: 0.015029ms
+
+n = 9500
+naive: 0.008828ms
+optimize_multi_link: 0.006406ms
+optimize_recursion_func: 0.024736ms
+optimize_recursion_nested_loop: 0.019221ms
+
+n = 9600
+naive: 0.009004ms
+optimize_multi_link: 0.007022ms
+optimize_recursion_func: 0.009798ms
+optimize_recursion_nested_loop: 0.016255ms
+
+n = 9700
+naive: 0.014608ms
+optimize_multi_link: 0.007477ms
+optimize_recursion_func: 0.015212ms
+optimize_recursion_nested_loop: 0.024553ms
+
+n = 9800
+naive: 0.014908ms
+optimize_multi_link: 0.007276ms
+optimize_recursion_func: 0.01152ms
+optimize_recursion_nested_loop: 0.016132ms
+
+n = 9900
+naive: 0.015202ms
+optimize_multi_link: 0.007418ms
+optimize_recursion_func: 0.011336ms
+optimize_recursion_nested_loop: 0.017163ms
+
+n = 10000
+naive: 0.014247ms
+optimize_multi_link: 0.007195ms
+optimize_recursion_func: 0.011259ms
+optimize_recursion_nested_loop: 0.02224ms
+
+n = 11000
+naive: 0.013934ms
+optimize_multi_link: 0.007994ms
+optimize_recursion_func: 0.012255ms
+optimize_recursion_nested_loop: 0.017124ms
+
+n = 12000
+naive: 0.018318ms
+optimize_multi_link: 0.008329ms
+optimize_recursion_func: 0.013397ms
+optimize_recursion_nested_loop: 0.019055ms
+
+n = 13000
+naive: 0.019296ms
+optimize_multi_link: 0.00976ms
+optimize_recursion_func: 0.014527ms
+optimize_recursion_nested_loop: 0.020626ms
+
+n = 14000
+naive: 0.02208ms
+optimize_multi_link: 0.010842ms
+optimize_recursion_func: 0.016549ms
+optimize_recursion_nested_loop: 0.021464ms
+
+n = 15000
+naive: 0.022162ms
+optimize_multi_link: 0.010812ms
+optimize_recursion_func: 0.016735ms
+optimize_recursion_nested_loop: 0.02398ms
+
+n = 16000
+naive: 0.026245ms
+optimize_multi_link: 0.012893ms
+optimize_recursion_func: 0.018895ms
+optimize_recursion_nested_loop: 0.024282ms
+
+n = 17000
+naive: 0.02684ms
+optimize_multi_link: 0.012909ms
+optimize_recursion_func: 0.018274ms
+optimize_recursion_nested_loop: 0.026109ms
+
+n = 18000
+naive: 0.026513ms
+optimize_multi_link: 0.01291ms
+optimize_recursion_func: 0.019997ms
+optimize_recursion_nested_loop: 0.025839ms
+
+n = 19000
+naive: 0.028234ms
+optimize_multi_link: 0.013493ms
+optimize_recursion_func: 0.021385ms
+optimize_recursion_nested_loop: 0.027516ms
+
+n = 20000
+naive: 0.029702ms
+optimize_multi_link: 0.014231ms
+optimize_recursion_func: 0.020284ms
+optimize_recursion_nested_loop: 0.029022ms
+
+n = 21000
+naive: 0.033734ms
+optimize_multi_link: 0.014454ms
+optimize_recursion_func: 0.022039ms
+optimize_recursion_nested_loop: 0.034388ms
+
+n = 22000
+naive: 0.033665ms
+optimize_multi_link: 0.015911ms
+optimize_recursion_func: 0.02298ms
+optimize_recursion_nested_loop: 0.032358ms
+
+n = 23000
+naive: 0.034697ms
+optimize_multi_link: 0.016611ms
+optimize_recursion_func: 0.023894ms
+optimize_recursion_nested_loop: 0.033337ms
+
+n = 24000
+naive: 0.036635ms
+optimize_multi_link: 0.016854ms
+optimize_recursion_func: 0.02543ms
+optimize_recursion_nested_loop: 0.034012ms
+
+n = 25000
+naive: 0.038414ms
+optimize_multi_link: 0.017923ms
+optimize_recursion_func: 0.026475ms
+optimize_recursion_nested_loop: 0.03616ms
+
+n = 26000
+naive: 0.030267ms
+optimize_multi_link: 0.020463ms
+optimize_recursion_func: 0.041786ms
+optimize_recursion_nested_loop: 0.037091ms
+
+n = 27000
+naive: 0.040735ms
+optimize_multi_link: 0.019333ms
+optimize_recursion_func: 0.028874ms
+optimize_recursion_nested_loop: 0.038405ms
+
+n = 28000
+naive: 0.042731ms
+optimize_multi_link: 0.020201ms
+optimize_recursion_func: 0.029412ms
+optimize_recursion_nested_loop: 0.038942ms
+
+n = 29000
+naive: 0.043181ms
+optimize_multi_link: 0.020978ms
+optimize_recursion_func: 0.036122ms
+optimize_recursion_nested_loop: 0.041327ms
+
+n = 30000
+naive: 0.044349ms
+optimize_multi_link: 0.021223ms
+optimize_recursion_func: 0.032896ms
+optimize_recursion_nested_loop: 0.041608ms
+
+n = 31000
+naive: 0.045917ms
+optimize_multi_link: 0.022346ms
+optimize_recursion_func: 0.03502ms
+optimize_recursion_nested_loop: 0.041118ms
+
+n = 32000
+naive: 0.048066ms
+optimize_multi_link: 0.022876ms
+optimize_recursion_func: 0.035642ms
+optimize_recursion_nested_loop: 0.042413ms
+
+n = 33000
+naive: 0.049793ms
+optimize_multi_link: 0.023632ms
+optimize_recursion_func: 0.036545ms
+optimize_recursion_nested_loop: 0.074061ms
+
+n = 34000
+naive: 0.040108ms
+optimize_multi_link: 0.02601ms
+optimize_recursion_func: 0.036452ms
+optimize_recursion_nested_loop: 0.044962ms
+
+n = 35000
+naive: 0.05323ms
+optimize_multi_link: 0.025295ms
+optimize_recursion_func: 0.037785ms
+optimize_recursion_nested_loop: 0.047603ms
+
+n = 36000
+naive: 0.044536ms
+optimize_multi_link: 0.025147ms
+optimize_recursion_func: 0.038363ms
+optimize_recursion_nested_loop: 0.049061ms
+
+n = 37000
+naive: 0.058915ms
+optimize_multi_link: 0.026828ms
+optimize_recursion_func: 0.039169ms
+optimize_recursion_nested_loop: 0.050328ms
+
+n = 38000
+naive: 0.056859ms
+optimize_multi_link: 0.026853ms
+optimize_recursion_func: 0.040258ms
+optimize_recursion_nested_loop: 0.052439ms
+
+n = 39000
+naive: 0.059107ms
+optimize_multi_link: 0.028931ms
+optimize_recursion_func: 0.049895ms
+optimize_recursion_nested_loop: 0.063181ms
+
+n = 40000
+naive: 0.061752ms
+optimize_multi_link: 0.02795ms
+optimize_recursion_func: 0.057751ms
+optimize_recursion_nested_loop: 0.055972ms
+
+n = 41000
+naive: 0.063349ms
+optimize_multi_link: 0.03022ms
+optimize_recursion_func: 0.047421ms
+optimize_recursion_nested_loop: 0.056801ms
+
+n = 42000
+naive: 0.063795ms
+optimize_multi_link: 0.029875ms
+optimize_recursion_func: 0.04688ms
+optimize_recursion_nested_loop: 0.056946ms
+
+n = 43000
+naive: 0.065038ms
+optimize_multi_link: 0.031169ms
+optimize_recursion_func: 0.048665ms
+optimize_recursion_nested_loop: 0.058439ms
+
+n = 44000
+naive: 0.066719ms
+optimize_multi_link: 0.031681ms
+optimize_recursion_func: 0.049381ms
+optimize_recursion_nested_loop: 0.058526ms
+
+n = 45000
+naive: 0.067612ms
+optimize_multi_link: 0.032627ms
+optimize_recursion_func: 0.049903ms
+optimize_recursion_nested_loop: 0.058935ms
+
+n = 46000
+naive: 0.06885ms
+optimize_multi_link: 0.032554ms
+optimize_recursion_func: 0.051285ms
+optimize_recursion_nested_loop: 0.060701ms
+
+n = 47000
+naive: 0.06978ms
+optimize_multi_link: 0.033369ms
+optimize_recursion_func: 0.092859ms
+optimize_recursion_nested_loop: 0.062282ms
+
+n = 48000
+naive: 0.071173ms
+optimize_multi_link: 0.034388ms
+optimize_recursion_func: 0.050419ms
+optimize_recursion_nested_loop: 0.063978ms
+
+n = 49000
+naive: 0.072869ms
+optimize_multi_link: 0.034478ms
+optimize_recursion_func: 0.051171ms
+optimize_recursion_nested_loop: 0.06614ms
+
+n = 50000
+naive: 0.074776ms
+optimize_multi_link: 0.035982ms
+optimize_recursion_func: 0.051547ms
+optimize_recursion_nested_loop: 0.066686ms
+
+n = 51000
+naive: 0.07879ms
+optimize_multi_link: 0.036726ms
+optimize_recursion_func: 0.05297ms
+optimize_recursion_nested_loop: 0.068602ms
+
+n = 52000
+naive: 0.079295ms
+optimize_multi_link: 0.037846ms
+optimize_recursion_func: 0.054409ms
+optimize_recursion_nested_loop: 0.069313ms
+
+n = 53000
+naive: 0.0865ms
+optimize_multi_link: 0.040683ms
+optimize_recursion_func: 0.058799ms
+optimize_recursion_nested_loop: 0.071541ms
+
+n = 54000
+naive: 0.080934ms
+optimize_multi_link: 0.040098ms
+optimize_recursion_func: 0.090029ms
+optimize_recursion_nested_loop: 0.071928ms
+
+n = 55000
+naive: 0.082398ms
+optimize_multi_link: 0.039842ms
+optimize_recursion_func: 0.061463ms
+optimize_recursion_nested_loop: 0.074547ms
+
+n = 56000
+naive: 0.08285ms
+optimize_multi_link: 0.039985ms
+optimize_recursion_func: 0.062165ms
+optimize_recursion_nested_loop: 0.075788ms
+
+n = 57000
+naive: 0.084932ms
+optimize_multi_link: 0.040973ms
+optimize_recursion_func: 0.062982ms
+optimize_recursion_nested_loop: 0.07708ms
+
+n = 58000
+naive: 0.087049ms
+optimize_multi_link: 0.041662ms
+optimize_recursion_func: 0.064457ms
+optimize_recursion_nested_loop: 0.07878ms
+
+n = 59000
+naive: 0.092502ms
+optimize_multi_link: 0.042659ms
+optimize_recursion_func: 0.065324ms
+optimize_recursion_nested_loop: 0.074815ms
+
+n = 60000
+naive: 0.090152ms
+optimize_multi_link: 0.043906ms
+optimize_recursion_func: 0.066105ms
+optimize_recursion_nested_loop: 0.077315ms
+
+n = 61000
+naive: 0.100332ms
+optimize_multi_link: 0.045912ms
+optimize_recursion_func: 0.066839ms
+optimize_recursion_nested_loop: 0.081339ms
+
+n = 62000
+naive: 0.095547ms
+optimize_multi_link: 0.044793ms
+optimize_recursion_func: 0.066861ms
+optimize_recursion_nested_loop: 0.080958ms
+
+n = 63000
+naive: 0.093059ms
+optimize_multi_link: 0.046128ms
+optimize_recursion_func: 0.068091ms
+optimize_recursion_nested_loop: 0.081792ms
+
+n = 64000
+naive: 0.096832ms
+optimize_multi_link: 0.045665ms
+optimize_recursion_func: 0.069951ms
+optimize_recursion_nested_loop: 0.083009ms
+
+n = 65000
+naive: 0.095837ms
+optimize_multi_link: 0.046332ms
+optimize_recursion_func: 0.071017ms
+optimize_recursion_nested_loop: 0.080725ms
+
+n = 66000
+naive: 0.098521ms
+optimize_multi_link: 0.047087ms
+optimize_recursion_func: 0.07278ms
+optimize_recursion_nested_loop: 0.086272ms
+
+n = 67000
+naive: 0.10394ms
+optimize_multi_link: 0.04939ms
+optimize_recursion_func: 0.074147ms
+optimize_recursion_nested_loop: 0.125698ms
+
+n = 68000
+naive: 0.102414ms
+optimize_multi_link: 0.048864ms
+optimize_recursion_func: 0.072699ms
+optimize_recursion_nested_loop: 0.088535ms
+
+n = 69000
+naive: 0.104796ms
+optimize_multi_link: 0.051713ms
+optimize_recursion_func: 0.06995ms
+optimize_recursion_nested_loop: 0.090589ms
+
+n = 70000
+naive: 0.1069ms
+optimize_multi_link: 0.050649ms
+optimize_recursion_func: 0.070957ms
+optimize_recursion_nested_loop: 0.092196ms
+
+n = 71000
+naive: 0.107073ms
+optimize_multi_link: 0.052337ms
+optimize_recursion_func: 0.074205ms
+optimize_recursion_nested_loop: 0.095167ms
+
+n = 72000
+
+
+naive: 0.0032ms
+optimize_multi_link: 0.002506ms
+optimize_recursion_func: 0.00446ms
+optimize_recursion_nested_loop: 0.006518ms
+
+n = 73000
+naive: 0.0871ms
+optimize_multi_link: 0.054085ms
+optimize_recursion_func: 0.138689ms
+optimize_recursion_nested_loop: 0.211063ms
+
+n = 74000
+naive: 0.069045ms
+optimize_multi_link: 0.05193ms
+optimize_recursion_func: 0.183844ms
+optimize_recursion_nested_loop: 0.121749ms
+
+n = 75000
+naive: 0.114418ms
+optimize_multi_link: 0.054832ms
+optimize_recursion_func: 0.074345ms
+optimize_recursion_nested_loop: 0.098172ms
+
+n = 76000
+naive: 0.107917ms
+optimize_multi_link: 0.056212ms
+optimize_recursion_func: 0.137111ms
+optimize_recursion_nested_loop: 0.101785ms
+
+n = 77000
+naive: 0.128008ms
+optimize_multi_link: 0.054814ms
+optimize_recursion_func: 0.087118ms
+optimize_recursion_nested_loop: 0.111642ms
+
+n = 78000
+naive: 0.113269ms
+optimize_multi_link: 0.05475ms
+optimize_recursion_func: 0.097551ms
+optimize_recursion_nested_loop: 0.103626ms
+
+n = 79000
+naive: 0.111014ms
+optimize_multi_link: 0.058948ms
+optimize_recursion_func: 0.082263ms
+optimize_recursion_nested_loop: 0.102044ms
+
+n = 80000
+naive: 0.119973ms
+optimize_multi_link: 0.057518ms
+optimize_recursion_func: 0.089738ms
+optimize_recursion_nested_loop: 0.103186ms
+
+n = 81000
+naive: 0.125472ms
+optimize_multi_link: 0.058421ms
+optimize_recursion_func: 0.088339ms
+optimize_recursion_nested_loop: 0.106189ms
+
+n = 82000
+naive: 0.134356ms
+optimize_multi_link: 0.063073ms
+optimize_recursion_func: 0.098442ms
+optimize_recursion_nested_loop: 0.153073ms
+
+n = 83000
+naive: 0.11119ms
+optimize_multi_link: 0.060966ms
+optimize_recursion_func: 0.086613ms
+optimize_recursion_nested_loop: 0.106303ms
+
+n = 84000
+naive: 0.126753ms
+optimize_multi_link: 0.059892ms
+optimize_recursion_func: 0.091272ms
+optimize_recursion_nested_loop: 0.111452ms
+
+n = 85000
+naive: 0.127495ms
+optimize_multi_link: 0.061402ms
+optimize_recursion_func: 0.093575ms
+optimize_recursion_nested_loop: 0.101396ms
+
+n = 86000
+naive: 0.128171ms
+optimize_multi_link: 0.059973ms
+optimize_recursion_func: 0.092044ms
+optimize_recursion_nested_loop: 0.109851ms
+
+n = 87000
+naive: 0.133781ms
+optimize_multi_link: 0.066459ms
+optimize_recursion_func: 0.095661ms
+optimize_recursion_nested_loop: 0.106834ms
+
+n = 88000
+naive: 0.133011ms
+optimize_multi_link: 0.061794ms
+optimize_recursion_func: 0.094182ms
+optimize_recursion_nested_loop: 0.114152ms
+
+n = 89000
+naive: 0.13786ms
+optimize_multi_link: 0.065548ms
+optimize_recursion_func: 0.098851ms
+optimize_recursion_nested_loop: 0.118515ms
+
+n = 90000
+naive: 0.136787ms
+optimize_multi_link: 0.062366ms
+optimize_recursion_func: 0.094839ms
+optimize_recursion_nested_loop: 0.116562ms
+
+n = 91000
+naive: 0.136201ms
+optimize_multi_link: 0.070249ms
+optimize_recursion_func: 0.099735ms
+optimize_recursion_nested_loop: 0.11525ms
+
+n = 92000
+naive: 0.146089ms
+optimize_multi_link: 0.067253ms
+optimize_recursion_func: 0.101613ms
+optimize_recursion_nested_loop: 0.110355ms
+
+n = 93000
+naive: 0.145442ms
+optimize_multi_link: 0.066691ms
+optimize_recursion_func: 0.100448ms
+optimize_recursion_nested_loop: 0.114242ms
+
+n = 94000
+naive: 0.142055ms
+optimize_multi_link: 0.070617ms
+optimize_recursion_func: 0.099131ms
+optimize_recursion_nested_loop: 0.122073ms
+
+n = 95000
+naive: 0.14594ms
+optimize_multi_link: 0.070031ms
+optimize_recursion_func: 0.099738ms
+optimize_recursion_nested_loop: 0.120752ms
+
+n = 96000
+naive: 0.15098ms
+optimize_multi_link: 0.069828ms
+optimize_recursion_func: 0.099971ms
+optimize_recursion_nested_loop: 0.121901ms
+
+n = 97000
+naive: 0.147549ms
+optimize_multi_link: 0.07083ms
+optimize_recursion_func: 0.100273ms
+optimize_recursion_nested_loop: 0.138986ms
+
+n = 98000
+naive: 0.149634ms
+optimize_multi_link: 0.07434ms
+optimize_recursion_func: 0.11174ms
+optimize_recursion_nested_loop: 0.132294ms
+
+n = 99000
+naive: 0.154299ms
+optimize_multi_link: 0.07383ms
+optimize_recursion_func: 0.110748ms
+optimize_recursion_nested_loop: 0.134294ms
+
+n = 100000
+naive: 0.156095ms
+optimize_multi_link: 0.073282ms
+optimize_recursion_func: 0.107706ms
+optimize_recursion_nested_loop: 0.12656ms
+
+n = 110000
+naive: 0.165754ms
+optimize_multi_link: 0.078636ms
+optimize_recursion_func: 0.233063ms
+optimize_recursion_nested_loop: 0.169556ms
+
+n = 120000
+naive: 0.179356ms
+optimize_multi_link: 0.093212ms
+optimize_recursion_func: 0.125213ms
+optimize_recursion_nested_loop: 0.151099ms
+
+n = 130000
+naive: 0.190686ms
+optimize_multi_link: 0.093197ms
+optimize_recursion_func: 0.134601ms
+optimize_recursion_nested_loop: 0.160713ms
+
+n = 140000
+naive: 0.204644ms
+optimize_multi_link: 0.099642ms
+optimize_recursion_func: 0.144623ms
+optimize_recursion_nested_loop: 0.175989ms
+
+n = 150000
+naive: 0.220194ms
+optimize_multi_link: 0.106412ms
+optimize_recursion_func: 0.15641ms
+optimize_recursion_nested_loop: 0.190471ms
+
+n = 160000
+naive: 0.235961ms
+optimize_multi_link: 0.114945ms
+optimize_recursion_func: 0.167713ms
+optimize_recursion_nested_loop: 0.200928ms
+
+n = 170000
+naive: 0.254131ms
+optimize_multi_link: 0.122783ms
+optimize_recursion_func: 0.176959ms
+optimize_recursion_nested_loop: 0.20702ms
+
+n = 180000
+naive: 0.264023ms
+optimize_multi_link: 0.125835ms
+optimize_recursion_func: 0.180867ms
+optimize_recursion_nested_loop: 0.224442ms
+
+n = 190000
+naive: 0.284166ms
+optimize_multi_link: 0.130988ms
+optimize_recursion_func: 0.192838ms
+optimize_recursion_nested_loop: 0.232821ms
+
+n = 200000
+naive: 0.306156ms
+optimize_multi_link: 0.141724ms
+optimize_recursion_func: 0.223366ms
+optimize_recursion_nested_loop: 0.258599ms
+
+n = 210000
+naive: 0.312963ms
+optimize_multi_link: 0.147269ms
+optimize_recursion_func: 0.212313ms
+optimize_recursion_nested_loop: 0.254103ms
+
+n = 220000
+naive: 0.296555ms
+optimize_multi_link: 0.153396ms
+optimize_recursion_func: 0.226707ms
+optimize_recursion_nested_loop: 0.269284ms
+
+n = 230000
+naive: 0.347375ms
+optimize_multi_link: 0.159679ms
+optimize_recursion_func: 0.236713ms
+optimize_recursion_nested_loop: 0.295881ms
+
+n = 240000
+naive: 0.354934ms
+optimize_multi_link: 0.165884ms
+optimize_recursion_func: 0.249345ms
+optimize_recursion_nested_loop: 0.288622ms
+
+n = 250000
+naive: 0.364915ms
+optimize_multi_link: 0.172235ms
+optimize_recursion_func: 0.256868ms
+optimize_recursion_nested_loop: 0.300106ms
+
+n = 260000
+naive: 0.396253ms
+optimize_multi_link: 0.181488ms
+optimize_recursion_func: 0.283086ms
+optimize_recursion_nested_loop: 0.327535ms
+
+n = 270000
+naive: 0.396095ms
+optimize_multi_link: 0.19222ms
+optimize_recursion_func: 0.286256ms
+optimize_recursion_nested_loop: 0.409755ms
+
+n = 280000
+naive: 0.386356ms
+optimize_multi_link: 0.196555ms
+optimize_recursion_func: 0.324995ms
+optimize_recursion_nested_loop: 0.363934ms
+
+n = 290000
+naive: 0.433115ms
+optimize_multi_link: 0.20985ms
+optimize_recursion_func: 0.312766ms
+optimize_recursion_nested_loop: 0.355916ms
+
+n = 300000
+naive: 0.448094ms
+optimize_multi_link: 0.226082ms
+optimize_recursion_func: 0.373156ms
+optimize_recursion_nested_loop: 0.379819ms
+
+n = 310000
+naive: 0.446568ms
+optimize_multi_link: 0.218229ms
+optimize_recursion_func: 0.330676ms
+optimize_recursion_nested_loop: 0.391761ms
+
+n = 320000
+naive: 0.487083ms
+optimize_multi_link: 0.231633ms
+optimize_recursion_func: 0.387156ms
+optimize_recursion_nested_loop: 0.3868ms
+
+n = 330000
+naive: 0.508099ms
+optimize_multi_link: 0.233538ms
+optimize_recursion_func: 0.350408ms
+optimize_recursion_nested_loop: 0.391958ms
+
+n = 340000
+naive: 0.516857ms
+optimize_multi_link: 0.234031ms
+optimize_recursion_func: 0.361782ms
+optimize_recursion_nested_loop: 0.409732ms
+
+n = 350000
+naive: 0.515746ms
+optimize_multi_link: 0.24559ms
+optimize_recursion_func: 0.3671ms
+optimize_recursion_nested_loop: 0.424113ms
+
+n = 360000
+naive: 0.497352ms
+optimize_multi_link: 0.262609ms
+optimize_recursion_func: 0.389128ms
+optimize_recursion_nested_loop: 0.455932ms
+
+n = 370000
+naive: 0.551675ms
+optimize_multi_link: 0.253835ms
+optimize_recursion_func: 0.40463ms
+optimize_recursion_nested_loop: 0.4543ms
+
+n = 380000
+naive: 0.562055ms
+optimize_multi_link: 0.27269ms
+optimize_recursion_func: 0.444448ms
+optimize_recursion_nested_loop: 0.460487ms
+
+n = 390000
+naive: 0.582093ms
+optimize_multi_link: 0.269315ms
+optimize_recursion_func: 0.432785ms
+optimize_recursion_nested_loop: 0.466661ms
+
+n = 400000
+naive: 0.585315ms
+optimize_multi_link: 0.295968ms
+optimize_recursion_func: 0.428381ms
+optimize_recursion_nested_loop: 0.475775ms
+
+n = 410000
+naive: 0.617417ms
+optimize_multi_link: 0.300043ms
+optimize_recursion_func: 0.471659ms
+optimize_recursion_nested_loop: 0.519266ms
+
+n = 420000
+naive: 0.632988ms
+optimize_multi_link: 0.302091ms
+optimize_recursion_func: 0.464436ms
+optimize_recursion_nested_loop: 0.545797ms
+
+n = 430000
+naive: 0.666857ms
+optimize_multi_link: 0.305452ms
+optimize_recursion_func: 0.485833ms
+optimize_recursion_nested_loop: 0.529481ms
+
+n = 440000
+naive: 0.682268ms
+optimize_multi_link: 0.355447ms
+optimize_recursion_func: 0.513844ms
+optimize_recursion_nested_loop: 0.566602ms
+
+n = 450000
+naive: 0.698971ms
+optimize_multi_link: 0.337359ms
+optimize_recursion_func: 0.527559ms
+optimize_recursion_nested_loop: 0.59631ms
+
+n = 460000
+naive: 0.695781ms
+optimize_multi_link: 0.345532ms
+optimize_recursion_func: 0.522554ms
+optimize_recursion_nested_loop: 0.55214ms
+
+n = 470000
+naive: 0.725279ms
+optimize_multi_link: 0.337777ms
+optimize_recursion_func: 0.527952ms
+optimize_recursion_nested_loop: 0.576285ms
+
+n = 480000
+naive: 0.72591ms
+optimize_multi_link: 0.388669ms
+optimize_recursion_func: 0.568277ms
+optimize_recursion_nested_loop: 0.599976ms
+
+n = 490000
+naive: 0.725121ms
+optimize_multi_link: 0.351024ms
+optimize_recursion_func: 0.565265ms
+optimize_recursion_nested_loop: 0.582906ms
+
+n = 500000
+naive: 0.741616ms
+optimize_multi_link: 0.348719ms
+optimize_recursion_func: 0.557114ms
+optimize_recursion_nested_loop: 0.591656ms
+
+n = 510000
+naive: 0.783223ms
+optimize_multi_link: 0.365842ms
+optimize_recursion_func: 0.571601ms
+optimize_recursion_nested_loop: 0.610748ms
+
+n = 520000
+naive: 0.765784ms
+optimize_multi_link: 0.375923ms
+optimize_recursion_func: 0.573724ms
+optimize_recursion_nested_loop: 0.623808ms
+
+n = 530000
+naive: 0.798915ms
+optimize_multi_link: 0.386843ms
+optimize_recursion_func: 0.596452ms
+optimize_recursion_nested_loop: 0.630955ms
+
+n = 540000
+naive: 0.798064ms
+optimize_multi_link: 0.389156ms
+optimize_recursion_func: 0.624527ms
+optimize_recursion_nested_loop: 0.697189ms
+
+n = 550000
+naive: 0.806312ms
+optimize_multi_link: 0.406242ms
+optimize_recursion_func: 0.693551ms
+optimize_recursion_nested_loop: 0.676934ms
+
+n = 560000
+naive: 0.85295ms
+optimize_multi_link: 0.402639ms
+optimize_recursion_func: 0.614314ms
+optimize_recursion_nested_loop: 0.657827ms
+
+n = 570000
+naive: 0.848364ms
+optimize_multi_link: 0.443667ms
+optimize_recursion_func: 0.641002ms
+optimize_recursion_nested_loop: 0.679543ms
+
+n = 580000
+naive: 0.877378ms
+optimize_multi_link: 0.409636ms
+optimize_recursion_func: 0.652851ms
+optimize_recursion_nested_loop: 0.683651ms
+
+n = 590000
+naive: 0.897047ms
+optimize_multi_link: 0.42711ms
+optimize_recursion_func: 0.653287ms
+optimize_recursion_nested_loop: 0.713568ms
+
+n = 600000
+naive: 0.894934ms
+optimize_multi_link: 0.429143ms
+optimize_recursion_func: 0.694784ms
+optimize_recursion_nested_loop: 0.746735ms
+
+n = 610000
+naive: 0.874862ms
+optimize_multi_link: 0.453931ms
+optimize_recursion_func: 0.733915ms
+optimize_recursion_nested_loop: 0.739865ms
+
+n = 620000
+naive: 0.898764ms
+optimize_multi_link: 0.448007ms
+optimize_recursion_func: 0.703998ms
+optimize_recursion_nested_loop: 0.746567ms
+
+n = 630000
+naive: 0.948385ms
+optimize_multi_link: 0.451029ms
+optimize_recursion_func: 0.72266ms
+optimize_recursion_nested_loop: 0.770612ms
+
+n = 640000
+naive: 1.01911ms
+optimize_multi_link: 0.467462ms
+optimize_recursion_func: 0.835107ms
+optimize_recursion_nested_loop: 0.792807ms
+
+n = 650000
+naive: 1.01204ms
+optimize_multi_link: 0.5224ms
+optimize_recursion_func: 0.748928ms
+optimize_recursion_nested_loop: 0.795098ms
+
+n = 660000
+naive: 0.994352ms
+optimize_multi_link: 0.511011ms
+optimize_recursion_func: 0.764923ms
+optimize_recursion_nested_loop: 0.80143ms
+
+n = 670000
+naive: 1.04508ms
+optimize_multi_link: 0.499698ms
+optimize_recursion_func: 0.814932ms
+optimize_recursion_nested_loop: 0.847449ms
+
+n = 680000
+naive: 1.04964ms
+optimize_multi_link: 0.502492ms
+optimize_recursion_func: 0.794242ms
+optimize_recursion_nested_loop: 0.838979ms
+
+n = 690000
+naive: 1.08461ms
+optimize_multi_link: 0.572977ms
+optimize_recursion_func: 0.805009ms
+optimize_recursion_nested_loop: 0.843272ms
+
+n = 700000
+naive: 1.04733ms
+optimize_multi_link: 0.507305ms
+optimize_recursion_func: 0.912825ms
+optimize_recursion_nested_loop: 0.842148ms
+
+n = 710000
+naive: 1.05036ms
+optimize_multi_link: 0.495767ms
+optimize_recursion_func: 0.810431ms
+optimize_recursion_nested_loop: 0.853973ms
+
+n = 720000
+naive: 1.11198ms
+optimize_multi_link: 0.595783ms
+optimize_recursion_func: 0.854153ms
+optimize_recursion_nested_loop: 0.850483ms
+
+n = 730000
+naive: 1.09818ms
+optimize_multi_link: 0.576233ms
+optimize_recursion_func: 0.8885ms
+optimize_recursion_nested_loop: 0.86835ms
+
+n = 740000
+naive: 1.09417ms
+optimize_multi_link: 0.525956ms
+optimize_recursion_func: 0.84548ms
+optimize_recursion_nested_loop: 0.858903ms
+
+n = 750000
+naive: 1.13049ms
+optimize_multi_link: 0.597243ms
+optimize_recursion_func: 0.878684ms
+optimize_recursion_nested_loop: 0.880914ms
+
+n = 760000
+naive: 1.14454ms
+optimize_multi_link: 0.534021ms
+optimize_recursion_func: 0.864791ms
+optimize_recursion_nested_loop: 0.915194ms
+
+n = 770000
+naive: 1.1889ms
+optimize_multi_link: 0.546616ms
+optimize_recursion_func: 0.883758ms
+optimize_recursion_nested_loop: 0.903852ms
+
+n = 780000
+naive: 1.17209ms
+optimize_multi_link: 0.553493ms
+optimize_recursion_func: 0.886816ms
+optimize_recursion_nested_loop: 0.987784ms
+
+n = 790000
+naive: 1.24374ms
+optimize_multi_link: 0.579783ms
+optimize_recursion_func: 0.903935ms
+optimize_recursion_nested_loop: 0.949013ms
+
+n = 800000
+naive: 1.19706ms
+optimize_multi_link: 0.571519ms
+optimize_recursion_func: 0.911629ms
+optimize_recursion_nested_loop: 0.988208ms
+
+n = 810000
+naive: 1.24607ms
+optimize_multi_link: 0.609709ms
+optimize_recursion_func: 0.944863ms
+optimize_recursion_nested_loop: 1.0019ms
+
+n = 820000
+naive: 1.26841ms
+optimize_multi_link: 0.589085ms
+optimize_recursion_func: 0.930225ms
+optimize_recursion_nested_loop: 0.953605ms
+
+n = 830000
+naive: 1.23624ms
+optimize_multi_link: 0.583434ms
+optimize_recursion_func: 0.947019ms
+optimize_recursion_nested_loop: 0.981676ms
+
+n = 840000
+naive: 1.25133ms
+optimize_multi_link: 0.603489ms
+optimize_recursion_func: 0.963097ms
+optimize_recursion_nested_loop: 1.0055ms
+
+n = 850000
+naive: 1.26447ms
+optimize_multi_link: 0.605393ms
+optimize_recursion_func: 0.98045ms
+optimize_recursion_nested_loop: 1.01574ms
+
+n = 860000
+naive: 1.29495ms
+optimize_multi_link: 0.615649ms
+optimize_recursion_func: 0.985ms
+optimize_recursion_nested_loop: 1.02353ms
+
+n = 870000
+naive: 1.30041ms
+optimize_multi_link: 0.624543ms
+optimize_recursion_func: 0.997006ms
+optimize_recursion_nested_loop: 1.03882ms
+
+n = 880000
+naive: 1.32688ms
+optimize_multi_link: 0.631757ms
+optimize_recursion_func: 1.00594ms
+optimize_recursion_nested_loop: 1.03303ms
+
+n = 890000
+naive: 1.34012ms
+optimize_multi_link: 0.637006ms
+optimize_recursion_func: 1.02739ms
+optimize_recursion_nested_loop: 1.06667ms
+
+n = 900000
+naive: 1.34829ms
+optimize_multi_link: 0.643811ms
+optimize_recursion_func: 1.04328ms
+optimize_recursion_nested_loop: 1.0698ms
+
+n = 910000
+naive: 1.35626ms
+optimize_multi_link: 0.651442ms
+optimize_recursion_func: 1.05797ms
+optimize_recursion_nested_loop: 1.09149ms
+
+n = 920000
+naive: 1.37351ms
+optimize_multi_link: 0.654541ms
+optimize_recursion_func: 1.04243ms
+optimize_recursion_nested_loop: 1.06483ms
+
+n = 930000
+naive: 1.41294ms
+optimize_multi_link: 0.660532ms
+optimize_recursion_func: 1.04559ms
+optimize_recursion_nested_loop: 1.07773ms
+
+n = 940000
+naive: 1.41824ms
+optimize_multi_link: 0.673849ms
+optimize_recursion_func: 1.0808ms
+optimize_recursion_nested_loop: 1.08368ms
+
+n = 950000
+naive: 1.43269ms
+optimize_multi_link: 0.687163ms
+optimize_recursion_func: 1.09256ms
+optimize_recursion_nested_loop: 1.08181ms
+
+n = 960000
+naive: 1.46188ms
+optimize_multi_link: 0.689316ms
+optimize_recursion_func: 1.08438ms
+optimize_recursion_nested_loop: 1.11142ms
+
+n = 970000
+naive: 1.51066ms
+optimize_multi_link: 0.693299ms
+optimize_recursion_func: 1.12474ms
+optimize_recursion_nested_loop: 1.12918ms
+
+n = 980000
+naive: 1.46826ms
+optimize_multi_link: 0.701908ms
+optimize_recursion_func: 1.13204ms
+optimize_recursion_nested_loop: 1.14599ms
+
+n = 990000
+naive: 1.50151ms
+optimize_multi_link: 0.709545ms
+optimize_recursion_func: 1.13199ms
+optimize_recursion_nested_loop: 1.1301ms
+
+n = 1000000
+naive: 1.51485ms
+optimize_multi_link: 0.719921ms
+optimize_recursion_func: 1.14972ms
+optimize_recursion_nested_loop: 1.14333ms

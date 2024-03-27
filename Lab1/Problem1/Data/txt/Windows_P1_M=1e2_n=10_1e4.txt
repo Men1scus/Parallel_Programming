@@ -1,0 +1,544 @@
+n = 10
+naive: 0.000243ms
+optimize: 0.000235ms
+unroll: 0.000177ms
+
+n = 20
+naive: 0.001046ms
+optimize: 0.001008ms
+unroll: 0.0005ms
+
+n = 30
+naive: 0.001699ms
+optimize: 0.002213ms
+unroll: 0.001374ms
+
+n = 40
+naive: 0.003636ms
+optimize: 0.003973ms
+unroll: 0.002454ms
+
+n = 50
+naive: 0.005689ms
+optimize: 0.006317ms
+unroll: 0.00372ms
+
+n = 60
+naive: 0.008207ms
+optimize: 0.009169ms
+unroll: 0.005348ms
+
+n = 70
+naive: 0.011185ms
+optimize: 0.012653ms
+unroll: 0.007338ms
+
+n = 80
+naive: 0.015055ms
+optimize: 0.017201ms
+unroll: 0.009519ms
+
+n = 90
+naive: 0.018468ms
+optimize: 0.021088ms
+unroll: 0.02568ms
+
+n = 100
+naive: 0.018052ms
+optimize: 0.018296ms
+unroll: 0.015059ms
+
+n = 200
+naive: 0.07075ms
+optimize: 0.075686ms
+unroll: 0.053463ms
+
+n = 300
+naive: 0.198526ms
+optimize: 0.198477ms
+unroll: 0.146485ms
+
+n = 400
+naive: 0.363122ms
+optimize: 0.316046ms
+unroll: 0.218246ms
+
+n = 500
+naive: 0.632332ms
+optimize: 0.487866ms
+unroll: 0.297598ms
+
+n = 600
+naive: 1.24456ms
+optimize: 0.701361ms
+unroll: 0.474649ms
+
+n = 700
+naive: 1.44749ms
+optimize: 1.12965ms
+unroll: 0.937686ms
+
+n = 800
+naive: 2.60982ms
+optimize: 1.56139ms
+unroll: 0.982963ms
+
+n = 900
+naive: 3.66209ms
+optimize: 1.5385ms
+unroll: 1.07397ms
+
+n = 1000
+naive: 5.22708ms
+optimize: 1.88533ms
+unroll: 1.171ms
+
+n = 1100
+naive: 4.79333ms
+optimize: 2.28234ms
+unroll: 1.41511ms
+
+n = 1200
+naive: 5.98342ms
+optimize: 2.66971ms
+unroll: 1.72485ms
+
+n = 1300
+naive: 8.79879ms
+optimize: 3.18368ms
+unroll: 2.00593ms
+
+n = 1400
+naive: 12.0742ms
+optimize: 3.50967ms
+unroll: 2.32028ms
+
+n = 1500
+naive: 13.785ms
+optimize: 4.09384ms
+unroll: 2.60012ms
+
+n = 1600
+naive: 17.0413ms
+optimize: 4.74436ms
+unroll: 3.037ms
+
+n = 1700
+naive: 18.4342ms
+optimize: 5.3383ms
+unroll: 3.46624ms
+
+n = 1800
+naive: 20.9913ms
+optimize: 6.16963ms
+unroll: 3.96967ms
+
+n = 1900
+naive: 20.9439ms
+optimize: 7.98173ms
+unroll: 6.62197ms
+
+n = 2000
+naive: 20.7106ms
+optimize: 8.91479ms
+unroll: 6.75233ms
+
+n = 2100
+naive: 21.6645ms
+optimize: 9.63226ms
+unroll: 7.69203ms
+
+n = 2200
+naive: 23.8362ms
+optimize: 11.0111ms
+unroll: 8.86012ms
+
+n = 2300
+naive: 26.8865ms
+optimize: 12.1517ms
+unroll: 9.40783ms
+
+n = 2400
+naive: 29.571ms
+optimize: 13.0193ms
+unroll: 10.0119ms
+
+n = 2500
+naive: 32.8105ms
+optimize: 13.6227ms
+unroll: 11.1709ms
+
+n = 2600
+naive: 35.0911ms
+optimize: 15.1882ms
+unroll: 11.7549ms
+
+n = 2700
+naive: 39.4501ms
+optimize: 16.464ms
+unroll: 12.3891ms
+
+n = 2800
+naive: 40.896ms
+optimize: 17.9636ms
+unroll: 14.2915ms
+
+n = 2900
+naive: 45.3501ms
+optimize: 18.8817ms
+unroll: 15.2035ms
+
+n = 3000
+naive: 48.3363ms
+optimize: 19.8423ms
+unroll: 15.6566ms
+
+n = 3100
+naive: 53.6691ms
+optimize: 21.8143ms
+unroll: 17.2352ms
+
+n = 3200
+naive: 60.1306ms
+optimize: 23.0944ms
+unroll: 18.6185ms
+
+n = 3300
+naive: 65.0487ms
+optimize: 24.2439ms
+unroll: 18.6724ms
+
+n = 3400
+naive: 68.7598ms
+optimize: 26.2339ms
+unroll: 20.5888ms
+
+n = 3500
+naive: 74.2434ms
+optimize: 28.4071ms
+unroll: 21.7672ms
+
+n = 3600
+naive: 79.3181ms
+optimize: 29.3321ms
+unroll: 22.6391ms
+
+n = 3700
+naive: 84.5602ms
+optimize: 30.07ms
+unroll: 24.0514ms
+
+n = 3800
+naive: 89.0375ms
+optimize: 33.3426ms
+unroll: 25.7228ms
+
+n = 3900
+naive: 93.5998ms
+optimize: 34.1808ms
+unroll: 26.4301ms
+
+n = 4000
+naive: 95.1497ms
+optimize: 35.0778ms
+unroll: 28.4364ms
+
+n = 4100
+naive: 100.63ms
+optimize: 37.0821ms
+unroll: 29.3393ms
+
+n = 4200
+naive: 105.119ms
+optimize: 38.8509ms
+unroll: 31.3158ms
+
+n = 4300
+naive: 112.642ms
+optimize: 40.1368ms
+unroll: 33.1976ms
+
+n = 4400
+naive: 116.691ms
+optimize: 43.9916ms
+unroll: 35.1761ms
+
+n = 4500
+naive: 124.178ms
+optimize: 45.6088ms
+unroll: 36.8497ms
+
+n = 4600
+naive: 129.613ms
+optimize: 47.0495ms
+unroll: 38.0078ms
+
+n = 4700
+naive: 135.105ms
+optimize: 49.0597ms
+unroll: 39.0318ms
+
+n = 4800
+naive: 139.458ms
+optimize: 51.3589ms
+unroll: 39.9947ms
+
+n = 4900
+naive: 146.825ms
+optimize: 54.0985ms
+unroll: 42.1355ms
+
+n = 5000
+naive: 153.067ms
+optimize: 56.7495ms
+unroll: 44.5164ms
+
+n = 5100
+naive: 159.31ms
+optimize: 58.5837ms
+unroll: 46.6741ms
+
+n = 5200
+naive: 165.872ms
+optimize: 60.9905ms
+unroll: 48.73ms
+
+n = 5300
+naive: 171.26ms
+optimize: 62.8705ms
+unroll: 49.6766ms
+
+n = 5400
+naive: 178.071ms
+optimize: 65.808ms
+unroll: 51.7763ms
+
+n = 5500
+naive: 185.272ms
+optimize: 68.1146ms
+unroll: 54.9499ms
+
+n = 5600
+naive: 192.774ms
+optimize: 68.5694ms
+unroll: 55.5246ms
+
+n = 5700
+naive: 202.313ms
+optimize: 73.6606ms
+unroll: 57.4122ms
+
+n = 5800
+naive: 206.538ms
+optimize: 73.5145ms
+unroll: 59.1406ms
+
+n = 5900
+naive: 214.218ms
+optimize: 77.8815ms
+unroll: 61.1665ms
+
+n = 6000
+naive: 222ms
+optimize: 80.0201ms
+unroll: 62.2266ms
+
+n = 6100
+naive: 229.368ms
+optimize: 82.7777ms
+unroll: 66.6776ms
+
+n = 6200
+naive: 244.73ms
+optimize: 85.0503ms
+unroll: 68.5413ms
+
+n = 6300
+naive: 265.189ms
+optimize: 88.2378ms
+unroll: 70.2167ms
+
+n = 6400
+naive: 254.736ms
+optimize: 90.8205ms
+unroll: 72.1702ms
+
+n = 6500
+naive: 264.369ms
+optimize: 95.4854ms
+unroll: 72.4304ms
+
+n = 6600
+naive: 273.992ms
+optimize: 98.0086ms
+unroll: 77.3727ms
+
+n = 6700
+naive: 285.488ms
+optimize: 98.7951ms
+unroll: 79.1531ms
+
+n = 6800
+naive: 294.13ms
+optimize: 102.145ms
+unroll: 81.4806ms
+
+n = 6900
+naive: 306.016ms
+optimize: 106.257ms
+unroll: 84.1455ms
+
+n = 7000
+naive: 321.692ms
+optimize: 107.385ms
+unroll: 85.4955ms
+
+n = 7100
+naive: 327.432ms
+optimize: 111.758ms
+unroll: 89.1812ms
+
+n = 7200
+naive: 339.383ms
+optimize: 115.042ms
+unroll: 93.22ms
+
+n = 7300
+naive: 347.914ms
+optimize: 116.795ms
+unroll: 94.1172ms
+
+n = 7400
+naive: 364.422ms
+optimize: 120.958ms
+unroll: 97.1143ms
+
+n = 7500
+naive: 378.737ms
+optimize: 124.462ms
+unroll: 100.563ms
+
+n = 7600
+naive: 392.335ms
+optimize: 129.975ms
+unroll: 103.539ms
+
+n = 7700
+naive: 409.784ms
+optimize: 132.69ms
+unroll: 104.869ms
+
+n = 7800
+naive: 419.963ms
+optimize: 133.305ms
+unroll: 108.498ms
+
+n = 7900
+naive: 437.949ms
+optimize: 142.857ms
+unroll: 112.457ms
+
+n = 8000
+naive: 461.773ms
+optimize: 143.552ms
+unroll: 114.339ms
+
+n = 8100
+naive: 467.629ms
+optimize: 143.253ms
+unroll: 117.596ms
+
+n = 8200
+naive: 480.048ms
+optimize: 149.393ms
+unroll: 116.304ms
+
+n = 8300
+naive: 495.164ms
+optimize: 154.38ms
+unroll: 123.712ms
+
+n = 8400
+naive: 510.432ms
+optimize: 157.338ms
+unroll: 124.623ms
+
+n = 8500
+naive: 538.224ms
+optimize: 161.544ms
+unroll: 126.381ms
+
+n = 8600
+naive: 578.261ms
+optimize: 172.395ms
+unroll: 136.79ms
+
+n = 8700
+naive: 589.682ms
+optimize: 166.684ms
+unroll: 136.284ms
+
+n = 8800
+naive: 596.826ms
+optimize: 146.511ms
+unroll: 106.564ms
+
+n = 8900
+naive: 526.429ms
+optimize: 149.396ms
+unroll: 110.285ms
+
+n = 9000
+naive: 529.448ms
+optimize: 152.694ms
+unroll: 108.745ms
+
+n = 9100
+naive: 556.57ms
+optimize: 155.417ms
+unroll: 112.846ms
+
+n = 9200
+naive: 563.059ms
+optimize: 190.857ms
+unroll: 151.608ms
+
+n = 9300
+naive: 696.757ms
+optimize: 194.892ms
+unroll: 154.428ms
+
+n = 9400
+naive: 695.537ms
+optimize: 186.061ms
+unroll: 151.296ms
+
+n = 9500
+naive: 709.244ms
+optimize: 198.066ms
+unroll: 158.513ms
+
+n = 9600
+naive: 739.376ms
+optimize: 202.261ms
+unroll: 164.158ms
+
+n = 9700
+naive: 765.039ms
+optimize: 205.237ms
+unroll: 166.78ms
+
+n = 9800
+naive: 786.03ms
+optimize: 210.237ms
+unroll: 170.618ms
+
+n = 9900
+naive: 810.068ms
+optimize: 217.331ms
+unroll: 170.422ms
+
+n = 10000
+naive: 826.97ms
+optimize: 223.554ms
+unroll: 178.781ms
